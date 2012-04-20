@@ -1,1 +1,1 @@
-app: bin/hubot -a campfire -n "vertigo bot"
+app: bin/hubot -a campfile -n vertibot
