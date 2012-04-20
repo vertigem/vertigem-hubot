@@ -1,1 +1,1 @@
-app: bin/hubot -a campfire -n vertibot
+app: bin/hubot -a campfire -n hubot
