@@ -3,7 +3,6 @@
 # redhair - s2
 # ruiva   - s2
 
-Select      = require( "soupselect" ).select
 libxmljs    = require("libxmljs");
 sys         = require "sys"
 
