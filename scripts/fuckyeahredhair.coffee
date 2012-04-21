@@ -1,7 +1,7 @@
 # Fuck Yeah Red Hair
 #
 # redhair - s2
-# ruiva   - s2
+# ruiva   - alias to readhair
 
 libxmljs    = require("libxmljs");
 sys         = require "sys"
