@@ -16,10 +16,10 @@ module.exports = (robot) ->
 
 
 send_redhair= (msg, location, callback)->
-  fuckyeahredhair_url = "http://fuckyeahredhair.tumblr.com/api/read?num=10&type=photo"
+  fuckyeahredhair_url = "http://fuckyeahredhair.tumblr.com/api/read?num=100&type=photo"
   msg.http( fuckyeahredhair_url ).get() (error, response, body)->
     return callback "Sorry, something went wrong" if error
-
+    console.log("try get redhair, code is #{response.statusCode}")
     if response.statusCode == 302
       location = response.headers['location']
       return send_redhair( msg, location, callback )
