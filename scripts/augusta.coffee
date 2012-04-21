@@ -12,4 +12,4 @@ module.exports = (robot) ->
 get_parties = (body, callback)->
   parties = JSON.parse(body)
   return callback "Hoje nada!" if parties.today.length == 0
-  callback "#{party.name}\n#{party.flyer_url}" for party in parties.today
+  callback "#{party.name}" && callback "#{party.flyer_url}" for party in parties.today
