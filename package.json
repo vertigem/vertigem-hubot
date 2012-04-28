@@ -26,5 +26,6 @@
     , "libxmljs": ""
     , "soupselect": ""
     , "htmlparser": ""
+    , "jsdom": ""
   }
 }
