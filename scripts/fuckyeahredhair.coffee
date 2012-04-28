@@ -4,7 +4,6 @@
 # ruiva   - alias to readhair
 
 libxmljs    = require("libxmljs");
-sys         = require "sys"
 
 Array::shuffle = -> @sort -> 0.5 - Math.random()
 
